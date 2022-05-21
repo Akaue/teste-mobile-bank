@@ -22,6 +22,7 @@ public class GlobalVariables {
     desiredCapabilities.setCapability("automationName", "");
     desiredCapabilities.setCapability(MobileCapabilityType.APP, "");
 
+
     AppiumDriver driver = new AndroidDriver(new URL(URL), desiredCapabilities);
 
 
