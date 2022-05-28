@@ -12,15 +12,17 @@ import java.net.URL;
 public class GlobalVariables {
 
 
-  public static AndroidDriver<MobileElement>  desiredcapabilities() throws MalformedURLException {
+  public static AndroidDriver<MobileElement>  createMobile() throws MalformedURLException {
 
-    String URL = "http://localhost:4723/wd";
+    String URL = "http://localhost:4723/wd/hub";
+    String pathAPP = "C:\\Users\\akaue\\Documents\\teste-mobile-bank\\src\\test\\support\\santander.apk";
+
     DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 
-    desiredCapabilities.setCapability("platformName", "");
-    desiredCapabilities.setCapability("deviceName", "");
-    desiredCapabilities.setCapability("automationName", "");
-    desiredCapabilities.setCapability(MobileCapabilityType.APP, "");
+    desiredCapabilities.setCapability("platformName", "Android");
+    desiredCapabilities.setCapability("deviceName", "VirtualDevice");
+    desiredCapabilities.setCapability("automationName", "uiautomator2");
+    desiredCapabilities.setCapability(MobileCapabilityType.APP, pathAPP);
 
 
     AppiumDriver driver = new AndroidDriver(new URL(URL), desiredCapabilities);
