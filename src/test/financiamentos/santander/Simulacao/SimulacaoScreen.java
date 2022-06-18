@@ -1,4 +1,4 @@
-package financiamentos.santander;
+package financiamentos.santander.Simulacao;
 
 import core.setup.GlobalVariables;
 import io.appium.java_client.android.AndroidDriver;
