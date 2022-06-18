@@ -12,10 +12,10 @@ public class SimulacaoScreen {
     public AndroidDriver driver;
 
     //Identificação do cliete
-
-    @AndroidFindBy(id = )
-    @iOSXCUITFindBy(id = )
-    public MobileElement
+//
+//    @AndroidFindBy(id = )
+//    @iOSXCUITFindBy(id = )
+//    public MobileElement
 
 
 
