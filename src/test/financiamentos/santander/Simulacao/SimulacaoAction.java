@@ -12,5 +12,4 @@ public class SimulacaoAction {
     public AndroidDriver driver;
 
 
-
 }
