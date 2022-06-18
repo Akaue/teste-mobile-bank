@@ -9,9 +9,7 @@ import java.net.MalformedURLException;
 
 public class SimulacaoScreen {
 
-    public SimulacaoScreen(){
-        super(getDriver());
-    } ;
+    public AndroidDriver driver;
 
     //Identificação do cliete
 

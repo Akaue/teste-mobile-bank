@@ -12,11 +12,5 @@ public class SimulacaoAction {
     public AndroidDriver driver;
 
 
-    @Test
-    public void setUp() throws MalformedURLException, InterruptedException {
-        driver = GlobalVariables.createMobile();
-    }
-
-
 
 }
