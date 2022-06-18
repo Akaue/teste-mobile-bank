@@ -13,11 +13,13 @@ public class SimulacaoScreen {
         super(getDriver());
     } ;
 
+    //Identificação do cliete
 
-    @Test
-    public void setUp() throws MalformedURLException, InterruptedException {
-        driver = GlobalVariables.createMobile();
-    }
+    @AndroidFindBy(id = )
+    @iOSXCUITFindBy(id = )
+    public MobileElement
+
+
 
 
 
