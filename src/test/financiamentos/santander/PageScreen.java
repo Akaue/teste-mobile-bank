@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import java.net.MalformedURLException;
 
-public class teste {
+public class SimulacaoScreen {
 
     public AndroidDriver driver;
 
